@@ -2,3 +2,420 @@
 2025-04-28 15:56:22,194 - INFO - Gemini API configured successfully
 2025-04-28 15:56:30,318 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
 2025-04-28 15:56:30,357 - INFO - Gemini API configured successfully
+2025-04-30 14:33:29,351 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-04-30 14:33:29,387 - INFO - Gemini API configured successfully
+2025-04-30 14:33:56,742 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=Q56PMJbCFXQ
+2025-04-30 14:34:00,898 - ERROR - Error downloading video: [0;31mERROR:[0m You have requested merging of multiple formats but ffmpeg is not installed. Aborting due to --abort-on-error
+2025-04-30 14:34:00,935 - ERROR - Download error
+Traceback (most recent call last):
+  File "c:\Users\S1939166\QuizMaker\converter.py", line 324, in download_video
+    info_dict = ydl.extract_info(video_url, download=True)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1642, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1653, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1809, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1868, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3040, in process_video_result
+    self.process_info(new_info)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 185, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 3466, in process_info
+    self.report_error(f'{msg}. Aborting due to --abort-on-error')
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1111, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\yt_dlp\YoutubeDL.py", line 1050, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m You have requested merging of multiple formats but ffmpeg is not installed. Aborting due to --abort-on-error
+2025-04-30 14:34:00,939 - ERROR - Video download failed
+2025-04-30 14:59:30,669 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-04-30 14:59:30,720 - INFO - Gemini API configured successfully
+2025-04-30 14:59:59,432 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=NYNBAxDfgrY
+2025-04-30 15:00:00,352 - ERROR - Error downloading video: HTTP Error 400: Bad Request
+2025-04-30 15:00:00,357 - ERROR - Download error
+Traceback (most recent call last):
+  File "c:\Users\S1939166\QuizMaker\converter.py", line 339, in download_video
+    stream = yt.streams.filter(progressive=True).order_by('resolution').desc().first()
+             ^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 157, in streaming_data
+    if 'streamingData' in self.vid_info:
+                          ^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+        endpoint_url,
+    ...<2 lines>...
+        data=data
+    )
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-04-30 15:00:00,415 - ERROR - Video download failed or was cancelled
+2025-04-30 15:11:33,286 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-04-30 15:11:33,318 - INFO - Gemini API configured successfully
+2025-04-30 15:11:37,788 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=NYNBAxDfgrY
+2025-04-30 15:11:38,977 - ERROR - Error downloading video: HTTP Error 400: Bad Request
+2025-04-30 15:11:38,996 - ERROR - Download error
+Traceback (most recent call last):
+  File "c:\Users\S1939166\QuizMaker\converter.py", line 339, in download_video
+    stream = yt.streams.filter(progressive=True).order_by('resolution').desc().first()
+             ^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 157, in streaming_data
+    if 'streamingData' in self.vid_info:
+                          ^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+        endpoint_url,
+    ...<2 lines>...
+        data=data
+    )
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-04-30 15:11:39,056 - ERROR - Video download failed or was cancelled
+2025-05-05 14:35:15,888 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 14:35:15,910 - INFO - Gemini API configured successfully
+2025-05-05 14:41:41,175 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=GVr8pZmSa-c
+2025-05-05 14:41:42,095 - ERROR - Error downloading video: HTTP Error 400: Bad Request
+2025-05-05 14:41:42,099 - ERROR - Download error
+Traceback (most recent call last):
+  File "c:\Users\S1939166\QuizMaker\converter.py", line 339, in download_video
+    stream = yt.streams.filter(progressive=True).order_by('resolution').desc().first()
+             ^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 157, in streaming_data
+    if 'streamingData' in self.vid_info:
+                          ^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+        endpoint_url,
+    ...<2 lines>...
+        data=data
+    )
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-05-05 14:41:42,151 - ERROR - Video download failed or was cancelled
+2025-05-05 15:03:57,480 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:03:57,521 - INFO - Gemini API configured successfully
+2025-05-05 15:04:51,535 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=lic7BqQFMm8
+2025-05-05 15:04:52,617 - ERROR - Error downloading video: HTTP Error 400: Bad Request
+2025-05-05 15:04:52,624 - ERROR - Download error
+Traceback (most recent call last):
+  File "c:\Users\S1939166\QuizMaker\converter.py", line 341, in download_video
+    stream = yt.streams.filter(progressive=True).order_by('resolution').desc().first()
+             ^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 157, in streaming_data
+    if 'streamingData' in self.vid_info:
+                          ^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+        endpoint_url,
+    ...<2 lines>...
+        data=data
+    )
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-05-05 15:04:52,675 - ERROR - Video download failed or was cancelled
+2025-05-05 15:28:55,741 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:28:55,775 - INFO - Gemini API configured successfully
+2025-05-05 15:29:46,302 - INFO - Output directory set to: C:/Users/S1939166/Downloads/youtube
+2025-05-05 15:29:52,420 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=3fq83qbjPCM
+2025-05-05 15:29:53,589 - ERROR - Error downloading video: HTTP Error 400: Bad Request
+2025-05-05 15:29:53,591 - ERROR - Download error
+Traceback (most recent call last):
+  File "c:\Users\S1939166\QuizMaker\converter.py", line 341, in download_video
+    stream = yt.streams.filter(progressive=True).order_by('resolution').desc().first()
+             ^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 157, in streaming_data
+    if 'streamingData' in self.vid_info:
+                          ^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+        endpoint_url,
+    ...<2 lines>...
+        data=data
+    )
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-05-05 15:29:53,652 - ERROR - Video download failed or was cancelled
+2025-05-05 15:30:57,311 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=3fq83qbjPCM
+2025-05-05 15:30:58,308 - ERROR - Error downloading video: HTTP Error 400: Bad Request
+2025-05-05 15:30:58,318 - ERROR - Download error
+Traceback (most recent call last):
+  File "c:\Users\S1939166\QuizMaker\converter.py", line 341, in download_video
+    stream = yt.streams.filter(progressive=True).order_by('resolution').desc().first()
+             ^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 157, in streaming_data
+    if 'streamingData' in self.vid_info:
+                          ^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+        endpoint_url,
+    ...<2 lines>...
+        data=data
+    )
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-05-05 15:30:58,328 - ERROR - Video download failed or was cancelled
+2025-05-05 15:31:59,547 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:31:59,585 - INFO - Gemini API configured successfully
+2025-05-05 15:32:07,866 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:32:07,896 - INFO - Gemini API configured successfully
+2025-05-05 15:32:22,822 - INFO - Output directory set to: C:/Users/S1939166/Downloads/youtube
+2025-05-05 15:32:23,643 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=3fq83qbjPCM
+2025-05-05 15:32:24,674 - ERROR - Error downloading video: HTTP Error 400: Bad Request
+2025-05-05 15:32:24,677 - ERROR - Download error
+Traceback (most recent call last):
+  File "c:\Users\S1939166\QuizMaker\converter.py", line 341, in download_video
+    stream = yt.streams.filter(progressive=True).order_by('resolution').desc().first()
+             ^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 157, in streaming_data
+    if 'streamingData' in self.vid_info:
+                          ^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+        endpoint_url,
+    ...<2 lines>...
+        data=data
+    )
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\S1939166\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+2025-05-05 15:32:24,682 - ERROR - Video download failed or was cancelled
+2025-05-05 15:33:04,328 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:33:04,368 - INFO - Gemini API configured successfully
+2025-05-05 15:33:49,092 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:33:49,094 - INFO - Gemini API configured successfully
+2025-05-05 15:34:03,598 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=3fq83qbjPCM
+2025-05-05 15:34:07,831 - ERROR - Download error: [0;31mERROR:[0m You have requested merging of multiple formats but ffmpeg is not installed. Aborting due to --abort-on-error
+2025-05-05 15:34:07,844 - ERROR - Video download failed or was cancelled
+2025-05-05 15:35:28,319 - WARNING - FFmpeg not found; falling back to single‑file downloads
+2025-05-05 15:35:28,330 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:35:28,342 - INFO - Gemini API configured successfully
+2025-05-05 15:35:45,035 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=3fq83qbjPCM
+2025-05-05 15:35:51,306 - INFO - Downloaded: The CIA’s Plot to Assassinate Julian Assange
+2025-05-05 15:35:51,310 - INFO - Uploading video to Gemini …
+2025-05-05 15:35:58,405 - ERROR - Analysis error: 400 The File f1dyb4xeeq5t is not in an ACTIVE state and usage is not allowed.
+2025-05-05 15:35:58,413 - INFO - Process completed.
+2025-05-05 15:38:37,616 - WARNING - FFmpeg not found; falling back to single‑file downloads
+2025-05-05 15:38:37,634 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:38:37,637 - INFO - Gemini API configured successfully
+2025-05-05 15:38:56,133 - INFO - Using existing video: The CIA’s Plot to Assassinate Julian Assange
+2025-05-05 15:38:56,135 - INFO - Uploading video to Gemini …
+2025-05-05 15:39:41,882 - WARNING - FFmpeg not found; falling back to single‑file downloads
+2025-05-05 15:39:41,898 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:39:41,901 - INFO - Gemini API configured successfully
+2025-05-05 15:39:54,646 - INFO - Starting download of YouTube video: https://www.youtube.com/watch?v=o21RwFBLXBs
+2025-05-05 15:40:02,124 - INFO - Downloaded: How a Boy Scout Turned into a $1.2 Billion Drug Lord
+2025-05-05 15:40:02,129 - INFO - Uploading video to Gemini …
+2025-05-05 15:41:10,518 - WARNING - FFmpeg not found; falling back to single‑file downloads
+2025-05-05 15:41:10,530 - INFO - Application ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:41:10,534 - INFO - Gemini API configured successfully
+2025-05-05 15:41:20,168 - INFO - Using existing video: How a Boy Scout Turned into a $1.2 Billion Drug Lord
+2025-05-05 15:41:20,176 - INFO - Uploading video to Gemini …
+2025-05-05 15:41:21,222 - INFO - Output directory set to: C:/Users/S1939166/Downloads/youtube
+2025-05-05 15:46:03,192 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-05 15:46:03,205 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:46:03,215 — INFO — Gemini API configured.
+2025-05-05 15:46:14,475 — INFO — Starting light download for https://www.youtube.com/watch?v=LZkl0_9xFOU
+2025-05-05 15:46:18,466 — ERROR — Download error: [0;31mERROR:[0m You have requested merging of multiple formats but ffmpeg is not installed. Aborting due to --abort-on-error
+2025-05-05 15:46:18,490 — INFO — Process finished.
+2025-05-05 15:47:23,083 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-05 15:47:23,094 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-05 15:47:23,096 — INFO — Gemini API configured.
+2025-05-05 15:47:32,764 — INFO — Starting light download for https://www.youtube.com/watch?v=TFqBrSbJzpQ
+2025-05-05 15:47:40,337 — INFO — Downloaded: The Most Genius Bank Heist EVER
+2025-05-05 15:47:40,342 — INFO — Uploading to Gemini…
+2025-05-05 15:57:44,617 — ERROR — Gemini poll timed out.
+2025-05-05 15:57:44,633 — INFO — Process finished.
