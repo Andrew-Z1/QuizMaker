@@ -1,0 +1,810 @@
+Title: Earth's Most Wanted Hacker
+
+Kind: captions
+Language: en
+(thunder crashing)
+- [Narrator] A storm is
+brewing in South Dakota.
+- [Radio] Sorry I didn't
+get that. Southwest 1772-
+- [Narrator] And it's moving
+swiftly into Minnesota,
+bringing with it rain,
+hail, thunder, and wind.
+A mass exodus is taking place
+from one social media website to another.
+But there's still some
+survivors left behind,
+album shares, party pictures.
+This one doesn't look any different.
+The user is sent to a webpage,
+and it's disguised in a coat
+that makes it look normal,
+but the last two letters
+reveal its true identity.
+They're prompted to install
+a video player update.
+(ominous music)
+(glass cracking)
+This unsuspecting
+computer is now a zombie,
+connected to a mesh of
+other half dead machines
+spread all throughout the planet.
+A botnet known simply as...
+(loud whooshing)
+- [Robot] You are watching "DisrupTV."
+- [Announcer] Congratulations. You won!
+Congratulations. You won!
+♪ Now, now, now, now ♪
+♪ Now, now, now, now, yes ♪
+- [Narrator] An antivirus
+company announces a discovery.
+(suspenseful music)
+Typically URLs are hosted
+on a single web server
+through a single internet
+protocol address.
+If one is found to be malicious,
+it's fairly easy to chop
+it down from the root
+by blocking the IP.
+But these URLs are utilizing
+a tactic known as fast flux.
+In a fast flux network, the
+IP address of the domain name
+is constantly switched out,
+making it near-impossible
+to find the core of the infection.
+Perfect for the first
+stage of self-propagation
+over the dates.
+In this time period,
+we see variants appearing that are created
+from the original MySpace exploit.
+Targets Skype,
+targets Twitter,
+(whistle)
+makes its way onto the
+Macintosh ecosystem.
+It spreads not only through
+social media messages,
+but right under our noses.
+An ordinary website.
+You can download files from here.
+Koobface covers the otherwise
+safe download button
+with an HTML IFrame.
+This sends a PDF file to the user
+that when opened, scans the computer.
+It's searching for a
+file transfer protocol.
+If found, it will send out
+a message to the other bots,
+who will subsequently use the exploited
+username and password to make
+a new home within its victim.
+With each newly infected host,
+the botnet grows larger,
+creating a decentralized
+untraceable network
+that turns left, turns
+right, goes up, and goes down
+on the whim of whoever
+has the steering wheel.
+- [Ron] (indistinct) with
+how to protect your computer.
+Dave?
+- [Dave] Yeah Ron, it's really scary
+how easily it can infect your computer.
+In fact, we had a
+computer expert show us...
+(train rattling)
+(lively music)
+(indistinct broadcast)
+- [Narrator] It's 1997
+and the most popular
+website in the world is...
+- [Man] Yahoo!
+- [Narrator] More than 17
+million people use the site
+every month to explore a new
+frontier known as the internet.
+But at 7:00 p.m. on Monday, December 8th,
+Yahoo is hijacked.
+(upbeat music)
+Confronts anyone who opens the browser.
+The message reveals that the
+computer of every single person
+who's visited Yahoo in the past month
+has been infected with a worm.
+And on Christmas day, in
+less than three weeks,
+the bomb will detonate
+and destroy millions
+of contaminated computer systems.
+That is, unless the
+hijacker's one demand is met.
+Anger erupts, and over the following days,
+protests break out on the
+streets across the United States.
+They set up camp outside
+federal courthouses
+and from New York to California
+people call in to radio
+stations to cry out the phrase,
+in real life and in video games.
+- [Radio Host] Do you
+have anything else to say?
+- [Radio Caller] Yes, free Kevin!
+- [Radio Host] Oh!
+- [Narrator] It's now just
+one week until Christmas.
+And most are asking...
+(dramatic music)
+He hoists himself up
+and looks through the bars on his windows.
+But Kevin isn't a terrorist.
+He isn't a mafia boss and he's not here
+because he wiretapped the NSA
+or blackmailed FBI agents.
+Authorities say he poses
+an even greater danger
+because with a single
+phone call, they say,
+he can dial into the NORAD and access
+the nuclear arsenal of the
+United States of America.
+- [JFK] The advent of nuclear weapons
+changed the course of the world.
+- [Narrator] Kevin might
+only be an innocent prankster
+or Kevin could be the
+world's most dangerous
+cyber terrorist,
+a man who has North
+America at his fingertips.
+To free or not to free,
+that is the question.
+(jaunty tones)
+This is a Windows registry key.
+And this is that same windows registry key
+modified by Koobface.
+When a computer wants
+to connect to a website,
+it goes through a domain
+management system or DNS.
+This is typically provided by
+an internet service provider.
+A VPN circumvents this by
+building its own bridge
+that handles the traffic toward
+whatever website the user types in.
+Koobface is doing something similar,
+but instead of directing
+traffic to the website
+in its true form, it repaints road signs,
+changes GPS directions,
+and guides the user to
+wherever it pleases.
+(upbeat techno music)
+YouTube, Wikipedia, PayPal,
+all resolved to IP addresses employed
+by the command and control center.
+This is how the Koob makes its money.
+Right there.
+When that user clicked the link,
+Koobface instantly shot his browser
+through a number of affiliate
+advertising networks.
+Instead of the machine
+sending HTTP GET to Google
+as it normally does, an infected machine
+sends HTTP GET to Koobface,
+who responds with a list
+of affiliated links.
+It's only after receiving those links
+that the machine correctly
+sends HTTP GET to Google,
+who then returns with the legit results.
+The first result corresponds
+to the first affiliate link
+and when clicked, for just a
+brief moment, an advertisement.
+After that process, the used
+affiliate link is scrubbed
+and a new one takes its place.
+These systems may offer two
+bucks per a thousand users
+that click the affiliate link.
+Multiply that by hundreds of
+thousands of infected bots
+across the planet, clicking links all day,
+and at this point, Koobface's
+command and control center
+is passively pulling in $38,000 per week.
+(orchestral music)
+The victim may now notice
+that something feels off.
+Their loading times are slower.
+Toolbars keep appearing out of nowhere.
+And just in time, a
+helping hand is offered.
+Similar to the Google
+search, a response is sent
+to Koob's command and control center.
+It responds with a list of
+antivirus software downloads,
+picks one, and displays it on the desktop.
+After the user pays,
+their PC remains infected
+and command and control
+gets a paycheck.
+We live in a world of bots.
+But where do these
+soulless beings come from?
+Alan Turing, a 20th century mathematician,
+creates the Turing test.
+In the experiment, a human
+has a text-based conversation
+with a computer and another human.
+If he can't tell who is the
+computer and who is the human
+then the computer has passed the test.
+Now we've flipped this.
+Instead of us, with the
+human telling computers
+apart from humans, computer
+needs to figure out who's you
+and who's me and who is it's robotic kin.
+- So you are a robot.
+- No, my name is Cleverbot.
+- Yes, you are a robot and
+your name is Cleverbot.
+- I am a robot.
+- Yes, I know.
+- Together we are robots.
+- I'm not a robot. I'm a unicorn.
+- [Narrator] In the beginning,
+Koobface uses a small portion
+of manually created accounts
+to spread initially.
+But now, as the infrastructure grows,
+it needs a way to create
+thousands of fake accounts
+to ensnarl thousands of more victims.
+Completely Automated Public Turing-Test
+to tell Computers and Humans Apart.
+Normally CAPTCHA would be a brick wall
+for an amateur bot program.
+But Koobface has found
+a clever work around.
+First it sends the following
+command to Facebook.
+The login and password are
+encoded via an encrypted scheme
+that involves reading the letters,
+their corresponding AC
+values, and comparing that
+to a successive string of
+numbers from zero to one
+to two to three to four to--
+(chiming tone)
+Encrypted becomes un-encrypted.
+New account information is
+sent to the social media site.
+The social media site
+responds with another packet
+containing a blank bio, birthday,
+favorite books, activities.
+Koob auto-fills this with
+randomly generated info
+that feels just realistic enough.
+Next the site will ask for CAPTCHA.
+To circumvent this, the
+CAPTCHA puzzle is mirrored
+to the desktop of any
+individual in its bot army.
+Two things happen.
+Their screen is unlocked
+and the CAPTCHA for the
+new minion is complete.
+Koobface deploys this
+scheme a number of times.
+Millions of friend requests
+are sent across Facebook
+and the army grows ever larger.
+Cyber investigators
+uncover an irregularity.
+The connection of interest
+is located on servers
+hosted by Coreix in the UK.
+The data flowing in and
+out of one of these servers
+matches observed data by Koobface.
+The command and control
+centers are wiped out
+and the bots are left
+wandering without direction.
+Hundreds of new command
+and control centers appear,
+which ushers in Koobface's peak
+with an estimated 600,000
+infected machines.
+The unraveling of Koobface is delivered
+through the very same websites
+it previously exploited.
+An Apache HTTP client is used to
+control files to and from a web server.
+For the most part, it can
+be functioned anonymously
+unless a specific option
+is left untouched.
+This option will drop breadcrumbs
+that display to any
+visitor what type of files
+are being transferred to and
+from the botnet on the daily.
+(rat chewing)
+This photo's metadata shows
+it was taken with an iPhone
+on September 15th, 2009.
+This is a daily backup of the Koobface
+command and control software.
+Inside, an IP stands out.
+This is programmed to automatically send
+a daily SMS update to five numbers.
+Updates that show exactly how much profit
+the network is pulling in.
+The numbers are searched.
+One is found, an online
+marketplace for vehicle sales,
+license plate in full view.
+Another market, selling sphynxes.
+A name is registered on
+a number of websites.
+The same BMW is found on Flickr.
+Also the cat.
+One of the found email
+addresses on a social media page
+points to a corporate
+email called MobSoft.
+The website is defunct,
+but the company details list an Anton K.
+Job listings, the numbers on it,
+both match the PHP found in Koob.
+(intense music)
+Their names are
+cross-referenced with their
+respective social media accounts,
+and here they posted
+their vacation pictures.
+Publicly.
+Facebook doxes their
+full names and pictures.
+They are dubbed Alibaba and 4.
+And now in a rather anticlimactic peak,
+the Koobface command and control
+centers simply go offline.
+From that point on to
+our current day and age
+Koobface's original
+command and control center
+has never been reactivated.
+Alibaba and 4 are off the grid.
+(orchestral music)
+And the zombie army
+remains dormant.
+(laughing and shouting)
+(fast-paced music)
+- Good evening, citizens of the metaverse
+and welcome to the Electronic
+Simulation Showcase Show.
+Today we're looking at
+the sports car of at-home
+virtual reality hardware; the Roto chair.
+This gaming chair is specially designed
+to increase immersion in
+your favorite VR simulations.
+Plug in your HMD cables into the grade A
+cable management system.
+When you turn your head in
+game, the motorized chair
+will turn your entire
+body a full 360 degrees.
+The Roto is equipped
+with double rumble motors
+on the bottom and backsides,
+meaning every explosion,
+every windstorm, will feel
+like you're actually there.
+Intense.
+Comfort is the name of the game
+when you're kicking back
+and watching a film,
+flying through the vast cosmos,
+or shooting your way to victory.
+With full padding, it's
+like you're sitting
+on an immersive cloud,
+ready to reach the depths
+of the metaphysical simulation or
+virtual, virtual, virtual,
+transconfigurational realities.
+The Roto chair, the world's
+first interactive VR chair.
+(upbeat music)
+(ethereal music)
+- [Kevin] I joined a
+bunch of phone phreakers
+who were gathering for a party.
+Something like two dozen people show up,
+each one almost as much of a nerd
+as the worst of a ham radio enthusiast.
+The conversation inevitably gets around
+to one of my favorite targets, COSMOS,
+the Pacific telephone
+mission system that could
+bestow so much power on any
+phreaker who could access it.
+As we started talking,
+I realized the building that
+houses COSMOS is nearby.
+The guard is a young guy.
+I say, "Hey, how you doing?
+"We're out late. I work here.
+"I wanted to show my
+friends where I work."
+He says, "Sure, just sign in."
+Doesn't even ask for an ID. Smooth.
+We've been calling
+departments and analyzing
+phone company operations
+for so long that we know
+exactly where the COSMOS
+employees work, room 108.
+A folder on the wall
+holds up sheets of paper
+listing dial-up numbers
+for every wire center
+in Southern California.
+Armed with this list
+and log-in credentials,
+I'd have the ability to
+control any phone line
+in Pacific Telephone's Southern
+California service area.
+- [Automated Voice] Hello.
+- [Kevin] I can't believe our luck.
+We should have left then,
+but I spot a set of COSMOS manuals
+and the temptation is irresistible.
+I tell the guys, let's take
+the manuals to a copy shop,
+run off a copy for each of us,
+then return the manuals
+before people start
+coming back to work in the morning.
+It was the most stupid
+decision of my early life.
+We drive around looking for a copy shop
+but can't find one, it's 2:00 AM.
+So I take the manuals home with me.
+But I have a bad feeling about them,
+so I throw it all in some trash bags
+and give them to my accomplice.
+Tell him to throw them away or something.
+- [Narrator] An unknown
+teenager has hacked
+a new network known as NORAD.
+It's an organization that
+provides aerospace warning
+and protection for North America.
+And this kid infiltrated the system
+just to have a look around.
+The move is so bold that it
+inspires the film "War Games."
+- Game, or is it real?
+- Journalist John Markoff
+gets in touch with Kevin.
+He wants him to be part of his new book
+on hackers named "Cyberpunk."
+He's gained a reputation as a
+master of social engineering.
+It's the art of deceiving
+people and just sharing valuable
+and confidential information
+for fraudulent purposes.
+But he's not interested
+in the money on offer.
+He wants to maintain a low profile
+so he refuses to be part of the book,
+much to the displeasure of John Markoff.
+On a hot summer's day in L.A.,
+Kevin pulls out the
+Stephen S. Wise Temple,
+where he works as a receptionist.
+In his rear view mirror, he thinks he sees
+a group of three men following him
+in a Ford Crown Victoria.
+He pulls a U-turn and sure
+enough, they do the same.
+Kevin speeds down the I-405
+and the car races after him.
+Suddenly one of the men
+places a cop car flasher
+on the roof of the car and
+now the sirens are crying out.
+Kevin pulls over. The officers rush up.
+They scream. Kevin is
+dragged out, handcuffed.
+His car is ransacked, but
+there's no signs of any bomb.
+- [Kevin] You're not gonna find it.
+- [Narrator] He's hauled to the station.
+The officers don't find a logic bomb,
+but they know about a
+crime Kevin committed.
+A friend told the police everything.
+He's sentenced 12 months in prison,
+followed by three years
+of supervised release.
+He sits in the courtroom,
+betrayed and alone.
+His attorneys plead with a
+judge that his hacking is
+an addiction rather
+than criminal behavior.
+They say the young man needs
+help, not a prison cell.
+Kevin rises and pleads
+his case to the judge.
+By now he's a veteran in deception.
+The judge agrees and orders
+that Kevin serve his sentence
+in a halfway house for those
+with the compulsive disorders.
+Kevin laughs as he's
+listening to the ruling.
+He was arrested for tricking
+his way into a computer system,
+and now he deceives
+the judge into thinking
+that he's the victim of his own crimes.
+It's a few weeks until
+supervised release ends
+and the demon on his
+shoulder is whispering.
+He starts learning about Pacific Bell,
+a telephone company based in California.
+An idea appears.
+If he gets caught, he'll be sent to jail,
+but if he doesn't then he'd
+have fooled the authorities
+right under their noses.
+(laughing and yelling)
+Soon, he has all the passwords
+and credentials he needs
+to take control of the
+company's voicemails.
+(distorted female voice)
+Kevin is on the run for two years.
+He loses a hundred pounds.
+When he learns that how a criminal walks
+is the number one way they're recognized,
+he puts pebbles in his
+shoes to change his stride.
+He uses over a dozen different names.
+His favorite is Eric Wise.
+(mellow music)
+He begins a crime spree that infiltrates
+the world's biggest companies,
+Nokia, Fujitsu, etc.
+The companies say the
+damage from the hacks totals
+300 million US Fiat.
+Kevin sips his coffee
+as he reads the paper
+and suddenly a chill
+passes down his spine.
+FBI agents take their positions
+outside the house in California.
+They see their target sitting inside,
+burst in and draw their weapons.
+And the man denies that
+he's Kevin Mitnick.
+He's a Middle Eastern immigrant.
+Doesn't even own a computer.
+More than 2000 kilometers away in Seattle,
+Kevin throws his paper to the ground,
+his name emblazoned on the front
+page of the New York Times.
+Kevin is adamant the stories
+and the articles are lies.
+He never hacked into NORAD
+or wiretapped the NSA.
+But if you believe Kevin, then
+you shouldn't trust anything
+you've heard so far about Kevin.
+He takes on mythical status overnight.
+A little known prankster is now
+public enemy number one of cyberspace.
+Kevin walks the streets
+of Seattle in a daze.
+Many of the passing faces on the sidewalk
+seem to be staring straight back at him.
+He hears the faint sound
+of a helicopter in the sky
+and feels his heart beginning to thump.
+No one seems to notice the helicopter,
+but they do notice Kevin.
+He hurries into the courtyard
+of an apartment complex
+and uses the tall trees as cover,
+peering through the leaves.
+Kevin tosses a package into the bushes
+and bursts into a full-on sprint.
+He gets away.
+But from what?
+One of America's top
+cyber security experts is
+finalizing plans to leave for
+a ski vacation the next day.
+And suddenly his own computer is hacked.
+His phone rings.
+(phone ringing)
+- [Male Voice] Your security
+technique will be defeated.
+Your technique is no good.
+- [Narrator] To someone like him,
+the attack and subsequent
+taunts are an act of war.
+(suspenseful tones)
+He sets up a series of
+stealth monitoring posts
+and creates his own software
+to track the hacker.
+He waits in silence until
+the alarm is triggered.
+He traces the intruder to a computer modem
+connected to a cellular telephone,
+somewhere on the east coast.
+A man steps out onto his balcony
+in Raleigh, North Carolina,
+and suddenly a chill
+passes down his spine.
+The FBI agents take their
+positions outside the house.
+They see their target sitting inside.
+Journalist John Markoff
+watches from the street.
+The agents burst in
+and draw their weapons,
+but find nothing.
+The man furiously denies
+that he's Kevin Mitnick.
+He's so convincing the FBI
+agents are about to leave,
+but then an agent notices an
+old ski jacket in the cupboard.
+He empties the pockets
+and out falls a pay stub.
+Legacy Media pitches up
+their circus tents outside.
+- Most wanted computer
+hacker is behind bars.
+- [Narrator] Kevin shares
+one large holding cell
+with 60 other inmates.
+He doesn't eat for two days
+because the food isn't kosher.
+Inside, all eyes are
+fixed on the defendant.
+Kevin is charged with
+14 counts of wire fraud,
+eight counts of possession of
+unauthorized access devices,
+interception of wire or
+electronic communications,
+and causing damage to a computer.
+When Kevin is led away from the court,
+Tsutomu calls out from the front row.
+Kevin looks back at his nemesis,
+the one man who finally saw through
+the lies and deceptions to find him.
+He nods, says nothing, and walks away.
+His appeals for bail are turned
+down by every single court
+in the US, including the Supreme.
+Kevin says the beefed up
+charges are an injustice
+and his treatment is a denial
+of his constitutional rights.
+But why won't anyone believe him?
+He has one last idea,
+but then a group of
+officers storm into the cell
+and throw him into solitary confinement.
+- Might change a lot of
+things in a negative way.
+I mean, he's trying so hard
+to at least get a trial,
+and then this comes up.
+- [Man] Yahoo!
+(somber music)
+- [Narrator] Christmas Day
+passes without incident.
+The hack on Yahoo was a hoax carried out
+by members of the Free Kevin movement.
+There was no logic bomb.
+After four years of prison
+and solitary confinement,
+Kevin pleads guilty to
+four counts of wire fraud,
+two counts of computer fraud,
+and one count of illegally intercepting
+a wire communication.
+- [Kevin] I didn't think of
+the consequences when I was
+engaging in this behavior, I just did it.
+I'd copy the code, store it on a computer,
+and go right on to the next,
+without even reading the code.
+And that, complete different
+motivation of somebody
+who's really out for financial
+gain or a foreign country
+or a competitor trying
+to obtain, you know,
+information like economic
+espionage, for instance.
+- You know, I hate to suggest
+the waste of your talent
+but as I listen to you, I think
+you'd make a great lawyer.
+- Well, I don't know, if
+you're convicted of a felony
+if they'd allow you to
+be admitted to the bar.
+- [Narrator] Kevin Mitnick
+is released from prison
+after nearly five years.
+When Kevin was on his crime
+spree, his hacking exploits
+seemed like mythology
+to the outside world.
+But by the time the sun hits his face,
+the world needs his skills.
+So soon after his release, he
+testifies before the Senate
+and advises on how to better protect
+computer systems from attacks.
+(gentle music)
+- [Davis] So I really like sleep.
+And the thing that I do like about sleep
+is that it's an alternate reality.
+Nothing is impossible in sleep.
+When you dream, you can
+fly and you can also die.
+You can laugh and you can cry.
+You can sing,
+but you won't notice a
+thing because you're asleep.
+I feel like sleep is a
+transportation to a new world
+for eight or less hours,
+or maybe even more.
+Sleep is very nice to have.
+I feel like it's a privilege
+because some other people,
+they don't have the access to sleep
+because of things like insomnia.
+So I feel like you should
+never take sleep for granted
+because if you stay up,
+I think you're gonna
+stay up for a long time.
+Sleep is very good for the body
+and it's awesome.
+- [Robot Voice] I was disrupted,
+ba doop boop bap ba deep boop.

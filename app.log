@@ -419,3 +419,223 @@ urllib.error.HTTPError: HTTP Error 400: Bad Request
 2025-05-05 15:47:40,342 — INFO — Uploading to Gemini…
 2025-05-05 15:57:44,617 — ERROR — Gemini poll timed out.
 2025-05-05 15:57:44,633 — INFO — Process finished.
+2025-05-07 14:53:13,572 — INFO — Ready. Enter a YouTube URL and click 'Generate Quiz'.
+2025-05-07 14:53:13,580 — INFO — Gemini API configured.
+2025-05-07 14:53:27,600 — ERROR — Transcript error: no element found: line 1, column 0
+2025-05-07 14:53:27,607 — INFO — Process finished.
+2025-05-07 14:53:35,184 — ERROR — Transcript error: no element found: line 1, column 0
+2025-05-07 14:53:35,192 — INFO — Process finished.
+2025-05-07 15:06:14,031 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-07 15:06:14,046 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-07 15:06:14,059 — INFO — Gemini API configured.
+2025-05-07 15:06:26,960 — INFO — Downloading transcript...
+2025-05-07 15:06:30,763 — INFO — Transcript downloaded and saved to 0OFBj7EjZ-g_transcript.txt
+2025-05-07 15:06:30,770 — INFO — Generating quiz from transcript...
+2025-05-07 15:06:31,049 — ERROR — Quiz generation error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-05-07 15:06:31,058 — ERROR — Process failed at stage: quiz
+2025-05-07 15:06:32,088 — INFO — Process finished.
+2025-05-07 15:08:27,407 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-07 15:08:27,419 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-07 15:08:27,421 — INFO — Gemini API configured.
+2025-05-07 15:08:39,000 — INFO — Downloading transcript...
+2025-05-07 15:08:42,879 — INFO — User requested cancel...
+2025-05-07 15:08:43,424 — INFO — Transcript downloaded and saved to 0OFBj7EjZ-g_transcript.txt
+2025-05-07 15:08:43,431 — INFO — Starting light download for https://www.youtube.com/watch?v=0OFBj7EjZ-g
+2025-05-07 15:08:45,565 — INFO — User requested cancel...
+2025-05-07 15:08:47,230 — ERROR — Download error: cancel
+2025-05-07 15:08:47,238 — ERROR — Video unavailable, using transcript only.
+2025-05-07 15:08:47,245 — INFO — Generating quiz from transcript...
+2025-05-07 15:08:47,465 — ERROR — Quiz generation error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-05-07 15:08:47,477 — ERROR — Process failed at stage: quiz
+2025-05-07 15:08:48,507 — INFO — Process finished.
+2025-05-07 15:08:55,762 — INFO — Using existing transcript: 0OFBj7EjZ-g_transcript.txt
+2025-05-07 15:08:55,775 — INFO — Generating quiz from transcript...
+2025-05-07 15:08:55,850 — ERROR — Quiz generation error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+]
+2025-05-07 15:08:55,868 — ERROR — Process failed at stage: quiz
+2025-05-07 15:08:56,891 — INFO — Process finished.
+2025-05-07 15:13:53,541 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-07 15:13:53,556 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-07 15:13:53,558 — INFO — Gemini API configured.
+2025-05-07 15:14:06,818 — INFO — Using existing transcript: 0OFBj7EjZ-g_transcript.txt
+2025-05-07 15:14:08,859 — INFO — Starting light download for https://www.youtube.com/watch?v=0OFBj7EjZ-g
+2025-05-07 15:14:10,967 — INFO — User requested cancel...
+2025-05-07 15:14:11,449 — INFO — User requested cancel...
+2025-05-07 15:14:13,026 — ERROR — Download error: cancel
+2025-05-07 15:14:13,042 — INFO — Process finished.
+2025-05-07 15:14:29,443 — INFO — Downloading transcript...
+2025-05-07 15:14:33,079 — INFO — Transcript downloaded and saved to hCsPV0eiqxg_transcript.txt
+2025-05-07 15:14:33,088 — INFO — Generating quiz from transcript...
+2025-05-07 15:14:33,237 — INFO — Warning: Gemini API error: 404 models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-07 15:14:33,247 — INFO — Trying offline quiz generation...
+2025-05-07 15:14:33,258 — INFO — Generating basic questions from transcript text...
+2025-05-07 15:14:33,268 — ERROR — Quiz generation error: 'Jack Madruga, the owner of his prized 1969 Mercury Montego, was known to have recently worked as a dishwasher at a local fruit company.' is not in list
+2025-05-07 15:14:33,281 — ERROR — Process failed at stage: quiz
+2025-05-07 15:14:34,321 — INFO — Process finished.
+2025-05-07 15:14:49,930 — INFO — Using existing transcript: hCsPV0eiqxg_transcript.txt
+2025-05-07 15:14:49,946 — INFO — Generating quiz from transcript...
+2025-05-07 15:14:50,006 — INFO — Warning: Gemini API error: 404 models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-07 15:14:50,021 — INFO — Trying offline quiz generation...
+2025-05-07 15:14:50,034 — INFO — Generating basic questions from transcript text...
+2025-05-07 15:14:50,050 — ERROR — Quiz generation error: 'Jack Madruga, the owner of his prized 1969 Mercury Montego, was known to have recently worked as a dishwasher at a local fruit company.' is not in list
+2025-05-07 15:14:50,064 — ERROR — Process failed at stage: quiz
+2025-05-07 15:14:51,105 — INFO — Process finished.
+2025-05-07 15:18:25,914 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-07 15:18:25,936 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-07 15:18:25,938 — INFO — Gemini API configured.
+2025-05-07 15:18:34,320 — INFO — Downloading transcript...
+2025-05-07 15:18:38,855 — INFO — Transcript downloaded and saved to 4SiwlXvy3Iw_transcript.txt
+2025-05-07 15:18:38,862 — INFO — Running in offline mode, generating questions locally...
+2025-05-07 15:18:38,879 — INFO — Generating basic questions from transcript text...
+2025-05-07 15:18:39,895 — INFO — Process finished.
+2025-05-07 15:26:59,740 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-07 15:26:59,754 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-07 15:26:59,764 — INFO — Gemini API configured.
+2025-05-07 15:27:11,069 — INFO — Downloading transcript...
+2025-05-07 15:27:15,118 — INFO — Transcript downloaded and saved to PlbUYl67LTY_transcript.txt
+2025-05-07 15:27:15,124 — INFO — Starting light download for https://www.youtube.com/watch?v=PlbUYl67LTY
+2025-05-07 15:27:23,691 — INFO — Downloaded: Earth's Most Wanted Hacker
+2025-05-07 15:27:23,697 — INFO — Uploading to Gemini...
+2025-05-07 15:37:28,828 — ERROR — Gemini poll timed out.
+2025-05-07 15:37:28,843 — ERROR — Process failed at stage: quiz
+2025-05-07 15:37:29,860 — INFO — Process finished.
+2025-05-07 15:37:45,500 — INFO — Downloading transcript...
+2025-05-07 15:37:49,264 — INFO — Transcript downloaded and saved to PlbUYl67LTY_transcript.txt
+2025-05-07 15:37:49,272 — INFO — Generating quiz from transcript...
+2025-05-07 15:37:49,440 — INFO — Warning: Gemini API error: 404 models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-07 15:37:49,451 — INFO — Trying offline quiz generation...
+2025-05-07 15:37:49,464 — INFO — Generating basic questions from transcript text...
+2025-05-07 15:37:49,473 — ERROR — Quiz generation error: "- [Narrator] It's now just one week until Christmas." is not in list
+2025-05-07 15:37:49,481 — ERROR — Process failed at stage: quiz
+2025-05-07 15:37:50,502 — INFO — Process finished.
+2025-05-07 15:57:48,928 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-07 15:57:48,944 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-07 15:57:48,954 — INFO — Gemini API configured.
