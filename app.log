@@ -639,3 +639,426 @@ violations {
 2025-05-07 15:57:48,928 — WARNING — FFmpeg not found — audio‑only conversion disabled
 2025-05-07 15:57:48,944 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
 2025-05-07 15:57:48,954 — INFO — Gemini API configured.
+2025-05-09 14:36:20,982 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-09 14:36:20,998 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-09 14:36:21,000 — INFO — Gemini API configured.
+2025-05-09 14:36:58,154 — INFO — Downloading transcript...
+2025-05-09 14:37:02,206 — INFO — Transcript downloaded and saved to lL0CkSNUIG8_transcript.txt
+2025-05-09 14:37:02,217 — INFO — Generating quiz from transcript...
+2025-05-09 14:37:02,565 — INFO — Warning: Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-09 14:37:02,573 — INFO — Trying offline quiz generation...
+2025-05-09 14:37:02,584 — INFO — Generating basic questions from transcript text...
+2025-05-09 14:37:02,776 — ERROR — Quiz generation error: "[Music] [Music] [Music] [Applause] it was 1993 super bowl weekend to be it was 1993 super bowl weekend to be it was 1993 super bowl weekend to be exact exact exact with preparations in place in a lively with preparations in place in a lively with preparations in place in a lively dallas texas awaiting an influx of dallas texas awaiting an influx of dallas texas awaiting an influx of sports fans sports fans sports fans festivities were abundant for one of the festivities were abundant for one of the festivities were abundant for one of the largest sports events of the year largest sports events of the year largest sports events of the year on the 28th of january david's wife and on the 28th of january david's wife and on the 28th of january david's wife and daughter karen and lauren daughter karen and lauren daughter karen and lauren embarked on a 400 mile trip from their embarked on a 400 mile trip from their embarked on a 400 mile trip from their home in amarillo to dallas for a weekend home in amarillo to dallas for a weekend home in amarillo to dallas for a weekend of shopping in the city of shopping in the city of shopping in the city the reason why david stayed behind is the reason why david stayed behind is the reason why david stayed behind is unclear unclear unclear some have stated that he wanted to some have stated that he wanted to some have stated that he wanted to record the game to a vhs and since their record the game to a vhs and since their record the game to a vhs and since their vcr lacked a function to begin a vcr lacked a function to begin a vcr lacked a function to begin a recording at a set date recording at a set date recording at a set date he had to be there in person to start it he had to be there in person to start it he had to be there in person to start it others like his wife have made others like his wife have made others like his wife have made tangential statements alluding to the tangential statements alluding to the tangential statements alluding to the possibility that he had to work possibility that he had to work possibility that he had to work since he was a lawyer from the span of january 28th to the from the span of january 28th to the from the span of january 28th to the 31st what took place back at the lewis 31st what took place back at the lewis 31st what took place back at the lewis home is unclear home is unclear home is unclear by january 31st though karen's testimony by january 31st though karen's testimony by january 31st though karen's testimony aided investigators in piecing together aided investigators in piecing together aided investigators in piecing together those missing events those missing events those missing events that evening the game was scheduled to that evening the game was scheduled to that evening the game was scheduled to begin at 5 30 pm central begin at 5 30 pm central begin at 5 30 pm central a few hours after this around 11 15 pm a few hours after this around 11 15 pm a few hours after this around 11 15 pm karen and lauren would arrive back at karen and lauren would arrive back at karen and lauren would arrive back at the home to discover david nowhere to be the home to discover david nowhere to be the home to discover david nowhere to be found found found his car was missing there was clean his car was missing there was clean his car was missing there was clean laundry in the dryer laundry in the dryer laundry in the dryer his wedding ring and watch were intact his wedding ring and watch were intact his wedding ring and watch were intact on the counter on the counter on the counter there were two freshly made turkey there were two freshly made turkey there were two freshly made turkey sandwiches in the fridge sandwiches in the fridge sandwiches in the fridge and the vcr had recorded even after the and the vcr had recorded even after the and the vcr had recorded even after the match was over match was over match was over [Music] [Music] [Music] at first glance the circumstances here at first glance the circumstances here at first glance the circumstances here wouldn't exactly raise red flags wouldn't exactly raise red flags wouldn't exactly raise red flags since there appeared to be no evidence since there appeared to be no evidence since there appeared to be no evidence of foul play and so karen assumed that of foul play and so karen assumed that of foul play and so karen assumed that he'd merely been working late he'd merely been working late he'd merely been working late or watching the game somewhere and would or watching the game somewhere and would or watching the game somewhere and would return return return soon soon soon david glenn lewis never returned home david glenn lewis never returned home david glenn lewis never returned home again again again one day later his wife would officially one day later his wife would officially one day later his wife would officially report him missing report him missing report him missing [Music] at around 10 30 p.m on the night of at around 10 30 p.m on the night of at around 10 30 p.m on the night of february first a motorist on state route february first a motorist on state route february first a motorist on state route in yakima washington encountered what in yakima washington encountered what in yakima washington encountered what they believed to be a man walking on the they believed to be a man walking on the they believed to be a man walking on the side of the road side of the road side of the road since it was so late his actions were since it was so late his actions were since it was so late his actions were caused for concern caused for concern caused for concern since it wasn't exactly common to find since it wasn't exactly common to find since it wasn't exactly common to find people hitchhiking in the dead at night people hitchhiking in the dead at night people hitchhiking in the dead at night while it was hard to tell they believed while it was hard to tell they believed while it was hard to tell they believed that the man was dressed in that the man was dressed in that the man was dressed in military-style clothing and work boots military-style clothing and work boots military-style clothing and work boots [Music] [Music] [Music] following this odd encounter they found following this odd encounter they found following this odd encounter they found a safe spot to make a u-turn so they a safe spot to make a u-turn so they a safe spot to make a u-turn so they could loop back around to check up on could loop back around to check up on could loop back around to check up on him him him when they finally managed to get back when they finally managed to get back when they finally managed to get back they discovered his body they discovered his body they discovered his body but it was lifeless on the side of the but it was lifeless on the side of the but it was lifeless on the side of the road a chevy camaro was also allegedly road a chevy camaro was also allegedly road a chevy camaro was also allegedly spotted flying the scene when they spotted flying the scene when they spotted flying the scene when they approached him approached him approached him however attempts at catching the plate however attempts at catching the plate however attempts at catching the plate information were unsuccessful information were unsuccessful information were unsuccessful after this discovery they rushed to after this discovery they rushed to after this discovery they rushed to follow reports and police arrived on the follow reports and police arrived on the follow reports and police arrived on the scene shortly after scene shortly after scene shortly after investigations into the body found that investigations into the body found that investigations into the body found that there were no drugs or alcohol in his there were no drugs or alcohol in his there were no drugs or alcohol in his system and there was unfortunately no system and there was unfortunately no system and there was unfortunately no form of identification form of identification form of identification leaving him stuck as an unidentified leaving him stuck as an unidentified leaving him stuck as an unidentified john doe john doe john doe the camaro that was spotted was one of the camaro that was spotted was one of the camaro that was spotted was one of the only working leads the only working leads the only working leads and since the shoulders on state route and since the shoulders on state route and since the shoulders on state route 24 weren't exactly pronounced 24 weren't exactly pronounced 24 weren't exactly pronounced the hit-and-run that took place was the hit-and-run that took place was the hit-and-run that took place was eventually deemed accidental eventually deemed accidental eventually deemed accidental leaving the case to remain stagnant [Music] [Music] [Music] conversely back in amarillo the conversely back in amarillo the conversely back in amarillo the investigation into david lewis was just investigation into david lewis was just investigation into david lewis was just ramping up ramping up ramping up the very next day his red ford suv was the very next day his red ford suv was the very next day his red ford suv was spotted outside of the potter county spotted outside of the potter county spotted outside of the potter county courts building courts building courts building a mere 10 miles from the local airport a mere 10 miles from the local airport a mere 10 miles from the local airport inside the glove box investigators were inside the glove box investigators were inside the glove box investigators were able to find his credit cards able to find his credit cards able to find his credit cards driver's license and checkbook in spots driver's license and checkbook in spots driver's license and checkbook in spots that karen claims it usually keeps them that karen claims it usually keeps them that karen claims it usually keeps them soon after this discovery karen lewis soon after this discovery karen lewis soon after this discovery karen lewis expressed even greater concern since it expressed even greater concern since it expressed even greater concern since it was incredibly out of the ordinary form was incredibly out of the ordinary form was incredibly out of the ordinary form to just up and vanish without any of his to just up and vanish without any of his to just up and vanish without any of his possessions or identification possessions or identification possessions or identification it began to seem that there was a piece it began to seem that there was a piece it began to seem that there was a piece to the puzzle that investigators were to the puzzle that investigators were to the puzzle that investigators were missing missing missing something that had potentially placed something that had potentially placed something that had potentially placed david in the crosshairs david in the crosshairs david in the crosshairs of an adversary [Music] [Music] [Music] in one of her testimonies karen claimed in one of her testimonies karen claimed in one of her testimonies karen claimed that a few weeks prior to his that a few weeks prior to his that a few weeks prior to his disappearance disappearance disappearance her husband told her that he believed her husband told her that he believed her husband told her that he believed that he was in danger but wouldn't that he was in danger but wouldn't that he was in danger but wouldn't provide any information provide any information provide any information as to what the immediate threat was this as to what the immediate threat was this as to what the immediate threat was this eventually led david's family to express eventually led david's family to express eventually led david's family to express the belief that it could have been the belief that it could have been the belief that it could have been linked to his work as an attorney linked to his work as an attorney linked to his work as an attorney he had allegedly been wrapped up in a he had allegedly been wrapped up in a he had allegedly been wrapped up in a high-stakes lawsuit against his former high-stakes lawsuit against his former high-stakes lawsuit against his former law firm law firm law firm ham erwin graham and cox with the ham erwin graham and cox with the ham erwin graham and cox with the wealthy client suing them for conflict wealthy client suing them for conflict wealthy client suing them for conflict of interest of interest of interest a week after he went missing david was a week after he went missing david was a week after he went missing david was scheduled to fly to dallas for a scheduled to fly to dallas for a scheduled to fly to dallas for a deposition deposition deposition determined to reveal the firm's misdeeds determined to reveal the firm's misdeeds determined to reveal the firm's misdeeds no matter the cost no matter the cost no matter the cost it was noted by his father that shortly it was noted by his father that shortly it was noted by his father that shortly before he vanished before he vanished before he vanished he claimed that he was quote going to he claimed that he was quote going to he claimed that he was quote going to tell the truth tell the truth tell the truth whoever it hurts whoever it hurts whoever it hurts these leads unfortunately these leads unfortunately these leads unfortunately also materialize nothing a few months later a discovery was made a few months later a discovery was made a few months later a discovery was made involving david lewis and plane tickets involving david lewis and plane tickets involving david lewis and plane tickets that he'd purchased that he'd purchased that he'd purchased the week and he went missing two of them the week and he went missing two of them the week and he went missing two of them one from dallas to amarillo texas one from dallas to amarillo texas one from dallas to amarillo texas purchased on january 31st purchased on january 31st purchased on january 31st and a second from los angeles to dallas and a second from los angeles to dallas and a second from los angeles to dallas purchased on the first of purchased on the first of purchased on the first of this effectively places lewis at the dfw this effectively places lewis at the dfw this effectively places lewis at the dfw airport on the 31st airport on the 31st airport on the 31st and at lax the very next day it's widely and at lax the very next day it's widely and at lax the very next day it's widely believed that he had pre-purchased his believed that he had pre-purchased his believed that he had pre-purchased his return flights while at each location return flights while at each location return flights while at each location although the actual flight dates and if although the actual flight dates and if although the actual flight dates and if he used the tickets are unclear he used the tickets are unclear he used the tickets are unclear this leaves us with three lingering this leaves us with three lingering this leaves us with three lingering questions though questions though questions though where was david lewis going how did he where was david lewis going how did he where was david lewis going how did he get to where he was without any sort of get to where he was without any sort of get to where he was without any sort of trail trail trail and why did he purchase return tickets and why did he purchase return tickets and why did he purchase return tickets back home back home back home to answer the second question we have to to answer the second question we have to to answer the second question we have to consider the time period that its consider the time period that its consider the time period that its flights were purchased flights were purchased flights were purchased since it predates the 911 tragedy since it predates the 911 tragedy since it predates the 911 tragedy airline rules in the u.s were much more airline rules in the u.s were much more airline rules in the u.s were much more lacks than they are today lacks than they are today lacks than they are today back then one could purchase a ticket back then one could purchase a ticket back then one could purchase a ticket using a completely different name since using a completely different name since using a completely different name since a valid id wasn't required to board the a valid id wasn't required to board the a valid id wasn't required to board the flight flight flight of course this is far from how things of course this is far from how things of course this is far from how things are today so this doesn't work anymore are today so this doesn't work anymore are today so this doesn't work anymore but most are set on the belief that this but most are set on the belief that this but most are set on the belief that this is what lewis had done is what lewis had done is what lewis had done on his flights out of town on his flights out of town on his flights out of town regarding the why well regarding the why well regarding the why well that's still unclear some have that's still unclear some have that's still unclear some have postulated that he was trying to get postulated that he was trying to get postulated that he was trying to get away from that aforementioned threat away from that aforementioned threat away from that aforementioned threat covering up his tracks along the way covering up his tracks along the way covering up his tracks along the way it's believed that it's believed that it's believed that for him it wasn't as imperative to fly for him it wasn't as imperative to fly for him it wasn't as imperative to fly under the radar under the radar under the radar so to speak while returning home so to speak while returning home so to speak while returning home but that is if he ever planned to [Music] [Music] [Music] by june of that year leads remained by june of that year leads remained by june of that year leads remained sparse as circumstantial details sparse as circumstantial details sparse as circumstantial details trickled in trickled in trickled in it seemed like piecing together what and it seemed like piecing together what and it seemed like piecing together what and where david lewis did and went where david lewis did and went where david lewis did and went was" is not in list
+2025-05-09 14:37:02,935 — ERROR — Process failed at stage: quiz
+2025-05-09 14:37:04,134 — INFO — Process finished.
+2025-05-09 14:37:24,053 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-09 14:37:24,067 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-09 14:37:24,069 — INFO — Gemini API configured.
+2025-05-09 14:37:29,168 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-09 14:37:29,183 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-09 14:37:29,186 — INFO — Gemini API configured.
+2025-05-09 14:49:12,382 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-09 14:49:12,395 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-09 14:49:12,922 — INFO — DeepSeek API configured.
+2025-05-09 14:49:24,397 — INFO — Downloading transcript…
+2025-05-09 14:49:28,401 — ERROR — Transcript download error: [0;31mERROR:[0m Unable to download video subtitles for 'en': [0;31mERROR:[0m Did not get any data blocks
+2025-05-09 14:49:28,445 — ERROR — Transcript unavailable and DeepSeek currently doesn't support direct media upload. Aborting.
+2025-05-09 14:49:28,451 — ERROR — Process failed at stage: transcript
+2025-05-09 14:49:29,467 — INFO — Process finished.
+2025-05-09 14:52:47,083 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-09 14:52:47,095 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-09 14:52:47,097 — INFO — Gemini API configured.
+2025-05-09 14:52:56,658 — INFO — Downloading transcript...
+2025-05-09 14:52:58,127 — INFO — User requested cancel...
+2025-05-09 14:53:00,774 — INFO — Transcript downloaded and saved to RvDsX1fz9EQ_transcript.txt
+2025-05-09 14:53:00,780 — INFO — Starting light download for https://www.youtube.com/watch?v=RvDsX1fz9EQ
+2025-05-09 14:53:02,959 — INFO — User requested cancel...
+2025-05-09 14:53:04,047 — ERROR — Download error: cancel
+2025-05-09 14:53:04,062 — INFO — Process finished.
+2025-05-09 14:53:09,603 — INFO — Downloading transcript...
+2025-05-09 14:53:13,344 — INFO — Transcript downloaded and saved to RvDsX1fz9EQ_transcript.txt
+2025-05-09 14:53:13,355 — INFO — Generating quiz from transcript...
+2025-05-09 14:53:13,516 — INFO — Warning: Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-09 14:53:13,529 — INFO — Trying offline quiz generation...
+2025-05-09 14:53:13,542 — INFO — Generating basic questions from transcript text...
+2025-05-09 14:53:13,556 — ERROR — Quiz generation error: "At first glance, it's obvious that the belongings and the human bones are connected." is not in list
+2025-05-09 14:53:13,565 — ERROR — Process failed at stage: quiz
+2025-05-09 14:53:14,613 — INFO — Process finished.
+2025-05-09 14:53:41,973 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-09 14:53:41,986 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-09 14:53:41,988 — INFO — Gemini API configured.
+2025-05-09 14:54:01,242 — INFO — Downloading transcript...
+2025-05-09 14:54:05,226 — ERROR — Transcript download error: [0;31mERROR:[0m Unable to download video subtitles for 'en': [0;31mERROR:[0m Did not get any data blocks
+2025-05-09 14:54:05,233 — ERROR — Transcript required but not available.
+2025-05-09 14:54:05,237 — ERROR — Process failed at stage: transcript
+2025-05-09 14:54:06,274 — INFO — Process finished.
+2025-05-09 14:55:11,835 — INFO — Downloading transcript...
+2025-05-09 14:55:15,132 — INFO — Transcript downloaded and saved to H7pE2oeV_5A_transcript.txt
+2025-05-09 14:55:15,147 — INFO — Generating quiz from transcript...
+2025-05-09 14:55:15,255 — INFO — Warning: Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-09 14:55:15,264 — INFO — Trying offline quiz generation...
+2025-05-09 14:55:15,271 — INFO — Generating basic questions from transcript text...
+2025-05-09 14:55:15,282 — ERROR — Quiz generation error: 'Then one morning, racing Lamborghinis.' is not in list
+2025-05-09 14:55:15,298 — ERROR — Process failed at stage: quiz
+2025-05-09 14:55:16,324 — INFO — Process finished.
+2025-05-13 15:43:05,994 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-13 15:43:06,011 — INFO — Ready. Enter a YouTube URL and click 'Start Analysis'.
+2025-05-13 15:43:06,013 — INFO — Gemini API configured.
+2025-05-13 15:43:49,142 — INFO — Downloading transcript...
+2025-05-13 15:43:54,462 — INFO — Transcript downloaded and saved to zhbaXhLL1h0_transcript.txt
+2025-05-13 15:43:54,472 — INFO — Starting light download for https://www.youtube.com/watch?v=zhbaXhLL1h0&ab_channel=shinzu
+2025-05-13 15:43:58,145 — INFO — User requested cancel...
+2025-05-13 15:43:58,609 — INFO — User requested cancel...
+2025-05-13 15:43:58,658 — ERROR — Download error: cancel
+2025-05-13 15:43:58,675 — INFO — Process finished.
+2025-05-13 15:44:03,725 — INFO — Using existing transcript: zhbaXhLL1h0_transcript.txt
+2025-05-13 15:44:03,730 — INFO — Generating quiz from transcript...
+2025-05-13 15:44:03,904 — INFO — Warning: Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-13 15:44:03,914 — INFO — Trying offline quiz generation...
+2025-05-13 15:44:03,928 — INFO — Generating basic questions from transcript text...
+2025-05-13 15:44:03,941 — ERROR — Process failed at stage: quiz
+2025-05-13 15:44:04,971 — INFO — Process finished.
+2025-05-14 11:57:23,113 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 11:57:23,129 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 11:57:23,140 — INFO — Gemini API configured from .env file.
+2025-05-14 11:57:54,082 — INFO — Gemini API key applied successfully!
+2025-05-14 11:57:54,084 — INFO — API key saved to .env file
+2025-05-14 11:57:54,101 — INFO — Downloading transcript...
+2025-05-14 11:57:58,427 — INFO — Transcript downloaded and saved to FD284p6Iot8_transcript.txt
+2025-05-14 11:57:58,434 — INFO — Generating quiz from transcript...
+2025-05-14 11:57:58,638 — INFO — Warning: Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 11:57:58,647 — INFO — Trying offline quiz generation...
+2025-05-14 11:57:58,659 — INFO — Generating basic questions from transcript text...
+2025-05-14 11:57:58,669 — ERROR — Quiz generation error: 'Uh, Thomas was figure this out.' is not in list
+2025-05-14 11:57:58,682 — ERROR — Process failed at stage: quiz
+2025-05-14 11:57:59,710 — INFO — Process finished.
+2025-05-14 11:59:08,622 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 11:59:08,643 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 11:59:08,647 — INFO — Gemini API configured from .env file.
+2025-05-14 11:59:15,569 — INFO — Gemini API key applied successfully!
+2025-05-14 11:59:15,571 — INFO — API key saved to .env file
+2025-05-14 11:59:17,454 — INFO — Using existing transcript: FD284p6Iot8_transcript.txt
+2025-05-14 11:59:17,463 — INFO — Generating quiz from transcript...
+2025-05-14 11:59:17,572 — INFO — Warning: Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 11:59:17,580 — INFO — Trying offline quiz generation...
+2025-05-14 11:59:17,591 — INFO — Generating basic questions from transcript text...
+2025-05-14 11:59:17,600 — ERROR — Quiz generation error: 'Uh, Thomas was figure this out.' is not in list
+2025-05-14 11:59:17,607 — ERROR — Process failed at stage: quiz
+2025-05-14 11:59:18,655 — INFO — Process finished.
+2025-05-14 12:00:43,134 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:00:43,151 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:00:43,153 — INFO — Gemini API configured from .env file.
+2025-05-14 12:00:50,992 — INFO — Gemini API key applied successfully!
+2025-05-14 12:00:50,994 — INFO — API key saved to .env file
+2025-05-14 12:00:52,161 — INFO — Using existing transcript: FD284p6Iot8_transcript.txt
+2025-05-14 12:00:52,168 — INFO — Generating quiz from transcript...
+2025-05-14 12:00:52,288 — INFO — Warning: Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:00:52,297 — INFO — Trying offline quiz generation...
+2025-05-14 12:00:52,303 — INFO — Generating basic questions from transcript text...
+2025-05-14 12:00:52,315 — INFO — Quiz saved to C:\Users\S1939166\QuizMaker\downloads\FD284p6Iot8_quiz.txt
+2025-05-14 12:00:53,358 — INFO — Process finished.
+2025-05-14 12:01:48,715 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:01:48,734 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:01:48,739 — INFO — Gemini API configured from .env file.
+2025-05-14 12:01:57,488 — INFO — Gemini API key applied successfully!
+2025-05-14 12:01:57,489 — INFO — API key saved to .env file
+2025-05-14 12:02:00,076 — INFO — Downloading transcript...
+2025-05-14 12:02:04,116 — INFO — Transcript downloaded and saved to FD284p6Iot8_transcript.txt
+2025-05-14 12:02:04,124 — INFO — Generating quiz from transcript...
+2025-05-14 12:02:04,243 — INFO — Warning: Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:02:04,253 — INFO — Trying offline quiz generation...
+2025-05-14 12:02:04,263 — INFO — Generating basic questions from transcript text...
+2025-05-14 12:02:04,275 — INFO — Quiz saved to C:\Users\S1939166\QuizMaker\downloads\FD284p6Iot8_quiz.txt
+2025-05-14 12:02:05,297 — INFO — Process finished.
+2025-05-14 12:05:23,916 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:05:23,934 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:05:23,939 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:05:24,374 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:05:24,378 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:06:25,730 — ERROR — API key validation failed: 404 models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 12:06:25,731 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:09:16,254 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:09:16,279 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:09:16,286 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:09:16,660 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:09:16,664 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:09:25,796 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:09:25,796 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:09:31,864 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:09:31,887 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:09:31,891 — INFO — Currently using Gemini 2.0 Flash model.
+2025-05-14 12:09:31,896 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:09:31,899 — INFO — Testing API key with model: gemini-2.0-flash
+2025-05-14 12:09:32,201 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:09:32,207 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:09:44,284 — INFO — Testing API key with model: gemini-2.0-pro
+2025-05-14 12:09:44,651 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:09:44,652 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:10:37,933 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:10:37,954 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:10:37,957 — INFO — Currently using Gemini 2.0 Flash model.
+2025-05-14 12:10:37,960 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:10:37,974 — INFO — Testing API key with model: gemini-2.0-flash
+2025-05-14 12:10:38,389 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:10:38,393 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:11:03,182 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:11:03,202 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:11:03,204 — INFO — Currently using Gemini 2.0 Flash model.
+2025-05-14 12:11:03,208 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:11:03,212 — INFO — Testing API key with model: gemini-2.0-flash
+2025-05-14 12:11:03,445 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:11:03,449 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:11:14,293 — INFO — Testing API key with model: gemini-2.0-pro
+2025-05-14 12:11:14,554 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:11:14,555 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:11:18,386 — INFO — Testing API key with model: gemini-1.5-flash
+2025-05-14 12:11:18,671 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:11:18,674 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:11:23,115 — INFO — Testing API key with model: gemini-1.5-pro
+2025-05-14 12:11:23,385 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:11:23,387 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:11:28,173 — INFO — Testing API key with model: gemini-1.0-pro
+2025-05-14 12:11:28,440 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:11:28,442 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:13:19,841 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:13:19,867 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:13:19,869 — INFO — Currently using Gemini 2.0 Flash model.
+2025-05-14 12:13:19,873 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:13:19,878 — INFO — Testing API key with model: gemini-2.0-flash
+2025-05-14 12:13:20,087 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:13:20,092 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:13:32,631 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:13:32,652 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:13:32,655 — INFO — Currently using Gemini 2.5 Flash model.
+2025-05-14 12:13:32,660 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:13:32,663 — INFO — Testing API key with model: gemini-2.5-flash
+2025-05-14 12:13:32,983 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:13:32,988 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:13:37,769 — INFO — Testing API key with model: gemini-2.5-pro
+2025-05-14 12:13:38,054 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:13:38,055 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:13:41,673 — INFO — Testing API key with model: gemini-2.5-flash
+2025-05-14 12:13:41,856 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:13:41,858 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:14:05,769 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:14:05,787 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:14:05,791 — INFO — Currently using Gemini 2.5 Flash model.
+2025-05-14 12:14:05,795 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:14:05,799 — INFO — Testing API key with model: gemini-2.5-flash
+2025-05-14 12:14:06,130 — ERROR — API key validation failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-05-14 12:14:06,134 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:14:21,448 — INFO — Testing API key with model: gemini-2.5-flash
+2025-05-14 12:14:21,744 — ERROR — API key validation failed: 404 models/gemini-2.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 12:14:21,745 — ERROR — Gemini API key appears to be invalid. Enabling offline mode.
+2025-05-14 12:17:40,887 — WARNING — FFmpeg not found — audio‑only conversion disabled
+2025-05-14 12:17:40,904 — INFO — Ready. Enter a YouTube URL and Gemini API Key, then click 'Start Analysis'.
+2025-05-14 12:17:40,907 — INFO — Currently using Gemini 2.5 Flash model.
+2025-05-14 12:17:40,914 — INFO — For offline mode (no API key needed), check the 'Offline Mode' option.
+2025-05-14 12:17:40,920 — INFO — Testing API key with model: gemini-2.5-flash
+2025-05-14 12:17:41,085 — ERROR — API key validation failed: 404 models/gemini-2.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 12:17:41,089 — ERROR — API key from .env file is invalid. Please obtain a new key or use offline mode.
+2025-05-14 12:17:52,174 — INFO — Testing API key with model: gemini-2.0-flash
+2025-05-14 12:17:52,825 — INFO — Gemini API key validated and applied successfully!
+2025-05-14 12:17:52,827 — INFO — API key saved to .env file
+2025-05-14 12:17:52,828 — INFO — Offline mode disabled since API key is valid.
+2025-05-14 12:18:10,575 — INFO — Testing API key with model: gemini-2.0-flash
+2025-05-14 12:18:10,969 — INFO — Gemini API key validated and applied successfully!
+2025-05-14 12:18:10,972 — INFO — API key saved to .env file
+2025-05-14 12:18:13,036 — INFO — Downloading transcript...
+2025-05-14 12:18:17,289 — INFO — Transcript downloaded and saved to FD284p6Iot8_transcript.txt
+2025-05-14 12:18:17,301 — INFO — Generating quiz from transcript...
+2025-05-14 12:18:17,325 — INFO — Using gemini-2.0-flash for quiz generation
+2025-05-14 12:18:19,700 — INFO — Quiz saved to C:\Users\S1939166\QuizMaker\downloads\FD284p6Iot8_quiz.txt
+2025-05-14 12:18:20,723 — INFO — Process finished.
